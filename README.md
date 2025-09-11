@@ -31,5 +31,6 @@ The post on Bitcointalk: https://bitcointalk.org/index.php?topic=5178297
 
 Author: mrvuit / https://bitcointalk.org/index.php?action=profile;u=1437909
 
- Edit By:  yhiaali3 / https://bitcointalk.org/index.php?action=profile;u=2168312 
+ Edit By:  yhiaali3 / https://bitcointalk.org/index.php?action=profile;u=2168312
+ 
  The Edit post on Bitcointalk: https://bitcointalk.org/index.php?topic=5558295
