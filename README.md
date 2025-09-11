@@ -6,10 +6,10 @@ Therefore, when possible users tend to create userscripts to simlify things and 
 This extension summarizes the features that members prefer, making it easier for users to use the Bitcointalk website.
 
 # Install:
-- Chrome Webstore: https://chrome.google.com/webstore/detail/bitcointalk-script/ebkdbmfcjnnpoplaphlokgpehbddamcn
+- FirFox Webstore: https://addons.mozilla.org/en-US/firefox/addon/bitcointalk-script/
 
 # Info:
-- Open source: https://github.com/mrvuit/BitcointalkExtension
+- https://github.com/yhiaali3/bitcointalk-script-FirFox
 - Can be installed on Firefox and all browsers that rely on Firefox.
 - Latest version: 3
 
