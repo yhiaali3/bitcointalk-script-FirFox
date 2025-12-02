@@ -6,12 +6,12 @@ Therefore, when possible users tend to create userscripts to simlify things and 
 This extension summarizes the features that members prefer, making it easier for users to use the Bitcointalk website.
 
 # Install:
-- FirFox Webstore: https://addons.mozilla.org/en-US/firefox/addon/bitcointalk-script/
+- Chrome Webstore: https://chrome.google.com/webstore/detail/bitcointalk-script/ebkdbmfcjnnpoplaphlokgpehbddamcn
 
 # Info:
-- https://github.com/yhiaali3/bitcointalk-script-FirFox
-- Can be installed on Firefox and all browsers that rely on Firefox.
-- Latest version: 3
+- Open source: https://github.com/mrvuit/BitcointalkExtension
+- Can be installed on all browsers with Chromemui core: Chrome, Brave, Microsoft Edge... (I will try with Firefox in the future.)
+- Latest version: 2.5
 
 # Features:
 - Change the theme
@@ -31,6 +31,5 @@ The post on Bitcointalk: https://bitcointalk.org/index.php?topic=5178297
 
 Author: mrvuit / https://bitcointalk.org/index.php?action=profile;u=1437909
 
- Edit By:  yhiaali3 / https://bitcointalk.org/index.php?action=profile;u=2168312
- 
+ Edit By:  yhiaali3 / https://bitcointalk.org/index.php?action=profile;u=2168312 
  The Edit post on Bitcointalk: https://bitcointalk.org/index.php?topic=5558295
