@@ -155,40 +155,18 @@ const Bitcointalk = {
                 gap: 10px;
             `;
             document.body.appendChild(priceContainer);
-
-            const refreshBtn = document.createElement('button');
-            refreshBtn.innerHTML = '🔄';
-            refreshBtn.title = 'Refresh Prices';
-            refreshBtn.style.cssText = `
-                background: none;
-                border: none;
-                color: white;
-                cursor: pointer;
-                font-size: 16px;
-                padding: 0;
-                margin: 0;
-            `;
-            refreshBtn.addEventListener('click', () => {
-                this.updatePrices(priceContainer, true);
-            });
-            priceContainer.appendChild(refreshBtn);
         }
 
         const priceText = document.createElement('span');
         priceText.className = 'price-text';
         priceText.textContent = '🔄 Loading...';
         priceContainer.insertBefore(priceText, priceContainer.querySelector('button'));
-
-        this.updatePrices(priceContainer, false);
         setInterval(() => {
-            this.updatePrices(priceContainer, false);
-        }, 5 * 60 * 1000);
+            this.updatePrices(priceContainer);
+        }, 1000);
     },
-    updatePrices: function (container, isManual) {
+    updatePrices: function (container) {
         const priceText = container.querySelector('span.price-text');
-        if (isManual && priceText) {
-            priceText.textContent = '🔄 Updating...';
-        }
 
         browser.runtime.sendMessage({ action: "fetchPrices" }).then(response => {
             if (response.success) {
