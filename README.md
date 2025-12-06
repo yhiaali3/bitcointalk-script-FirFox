@@ -10,7 +10,7 @@ This extension summarizes the features that members prefer, making it easier for
 
 # Info:
 - Open source: https://github.com/mrvuit/BitcointalkExtension
-- Can be installed on all browsers with Chromemui core: Chrome, Brave, Microsoft Edge... (I will try with Firefox in the future.)
+- Can be installed on all browsers with Firefox core .
 - Latest version: 2.5
 
 # Features:
